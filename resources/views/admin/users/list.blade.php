@@ -11,7 +11,7 @@
 			<form  method="POST" action="search" role="form" id="form-searchUser">
 				<div class="row searchDB">
 					<span>Search : </span>
-					<input id="infoUser" class="col-sm-8" type="text" name="infoUser">
+					<input id="infoUser" class="col-sm-8" type="text" name="infoUser" placeholder="Search by name">
                     {!! csrf_field() !!}
 					<button class="col-sm-1" type="submit" name="search">
 				</div>
@@ -52,7 +52,7 @@
                             	@if ($user->level==0)
 								<a href="delete/{{$user->id}}">Delete</a>
 								@else
-								<p>Delete</p>
+								<!-- <p>Delete</p> -->
 								@endif
 							</td>
 							<td>

@@ -128,7 +128,7 @@ class AssignmentManagementController extends Controller
     }
 
     public function  postSearchController(Request $request){
-        $users = users::where('fullname',$request->input('nameUser'))->get();
+        $users = users::where('fullname','LIKE','%'.$request->input('nameUser').'%')->get();
         $user = $users->first();
         $assignment = null;
         if ($user!= null) {

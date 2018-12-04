@@ -20,9 +20,9 @@
 				<div class="showInfo">
 					<p>
 					@if (Auth::user()->gender==1)
-	            		{{"Giáo vụ "}}
+	            		{{"Male"}}
 	        		@else
-	            		{{"Lecturers"}}
+	            		{{"Female"}}
 	        		@endif
 					</p>
 				</div>

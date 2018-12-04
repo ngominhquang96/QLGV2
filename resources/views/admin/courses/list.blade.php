@@ -11,7 +11,7 @@
 			<form  method="POST" action="search" role="form" id="form-searchUser">
 				<div class="row searchDB">
 					<span>Search : </span>
-					<input id="nameCourse" class="col-sm-8" type="text" name="nameCourse">
+					<input id="nameCourse" class="col-sm-8" type="text" name="nameCourse" placeholder="Search by name course">
 					{!! csrf_field() !!}
 					<button class="col-sm-1" type="submit" name="search">
 				</div> 

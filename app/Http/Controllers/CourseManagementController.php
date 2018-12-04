@@ -106,7 +106,7 @@ class CourseManagementController extends Controller
         return redirect('admin/courses/list')->with('notification','Delete Course Success');
     }
     public function postSearchController(Request $request){
-        $courses = courses::where('nameCourse',$request->input('nameCourse'))->get();
+        $courses = courses::where('nameCourse','LIKE','%'.$request->input('nameCourse').'%')->get();
         $courses = $courses->first();
         $course = null;
         if ($courses!= null) {

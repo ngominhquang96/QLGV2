@@ -121,10 +121,10 @@
                     <div class="form-group">
                         <label>User Level</label><br>
                         <label class="radio-inline">
-                            <input name="level" value="1" checked="" type="radio">Admin
+                            <input name="level" value="1" type="radio">Admin
                         </label>
                         <label class="radio-inline">
-                            <input name="level" value="0" type="radio">Member
+                            <input name="level" value="0" checked="true" type="radio">Member
                         </label>
                     </div>
 
