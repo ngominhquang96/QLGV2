@@ -1,0 +1,77 @@
+@font-face {
+
+font-family:”Roboto Condensed”;
+
+src:url(“fonts/Roboto-Condensed.eot?”)format(“eot”),
+
+url(“fonts/Roboto-Condensed.woff”)format(“woff”),
+
+url(“fonts/Roboto-Condensed.ttf”)format(“truetype”),
+
+url(“fonts/Roboto-Condensed.svg#Roboto-Condensed”)format(“svg”);
+
+}
+
+html {
+
+}
+
+body {
+
+}
+
+.page-header {
+	border-bottom: 1px solid #E2E2D2;
+}
+
+form {
+	padding: 1em;
+}
+
+.control-label {
+	width: 20%;
+	font-weight: bold;
+    font-size: 1.5vw;
+    color: #6c757d;
+    text-align: left;
+    margin: 0;
+    line-height: 48px;
+}
+
+.showInfo {
+	width: 80%;
+}
+
+.showInfo p{
+	border: none;
+	border-bottom: 2px solid #E2E2D2;
+	text-align: center;
+	font-size: 1.5vw;
+	padding-bottom: 2%;
+	color: black;
+}
+
+.form-control:focus {
+	box-shadow: none;
+}
+
+.birth select{
+	margin-right: 2em;
+}
+
+.btn {
+	background: #288EED;
+    color: white;
+    font-weight: 700;
+    font-size: 1.3vw;
+    text-transform: uppercase;
+}
+
+.table {
+	width: 65%;
+	margin: auto;
+}
+
+thead {
+	font-weight: bold;
+}
